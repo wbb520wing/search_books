@@ -1,0 +1,10 @@
+<div class="wishlistContainer">
+  <div class="wishTitle">
+    <h3>Book Name</h3>
+    <h3>Delete</h3>
+  </div>
+  <div class="wishlistCard px-2 py-2" *ngFor="let wl of wishlist">
+      <h4>{{wl.bookname}}</h4>
+      <button class="btn btn-danger" (click)="moveList(wl.id)">X</button>
+  </div>
+</div>

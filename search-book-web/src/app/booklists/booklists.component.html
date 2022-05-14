@@ -1,0 +1,17 @@
+<div class="listContainer">
+  <div class="cardContainer" *ngFor="let book of booklist$ | async" (click)="addToWish(book.id)">
+    <div class="card m-3">
+        <img [src]="book.bookimage" alt="book image"/>
+        <div class="card-body">
+          <h5 class="card-title">{{book.bookname}}</h5>
+          <div class="card-subtitle">
+          <h6>{{book.publisher}}</h6>
+          <h6>{{book.publishedDate}}</h6>
+        </div>
+          <div class="card-text">
+            <p>{{book.description | wordsLimited}}</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>>

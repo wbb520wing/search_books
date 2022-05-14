@@ -1,0 +1,58 @@
+.listContainer {
+  border: 1px solid grey;
+  height: 100vh;
+  background-color: antiquewhite;
+  border-radius:1rem;
+  overflow: scroll;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  border-radius: 1rem;
+  border: 3px dashed grey;
+  height: 12rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 5px 5px grey
+}
+
+img {
+  border: 1px dotted grey;
+  margin: 1rem;
+  border-radius: 1rem;
+  width: 20%;
+}
+
+.card-body {
+  width: 70%;
+  border: 1px dotted grey;
+  border-radius: 1rem;
+  margin: 1rem 1rem 1rem 0;
+  background-color: aliceblue;
+  overflow: hidden;
+  line-height: 1rem;
+}
+
+.card-subtitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h5 {
+  color: darkgoldenrod;
+}
+
+h6{
+  font-size: 10px;
+  font-weight: lighter;
+  color: gray;
+}
+
+.card-text {
+  font-size: 10px;
+}

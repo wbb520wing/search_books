@@ -1,0 +1,44 @@
+.wishlistContainer{
+  border: 1px solid grey;
+  height: 100vh;
+  background-color: antiquewhite;
+  border-radius:1rem;
+  overflow: scroll;
+}
+
+.wishTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  margin: 1rem;
+  color: grey;
+}
+
+.wishlistCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  border-radius: 1rem;
+  border: 3px dashed grey;
+  margin: 1rem;
+  background-color: aliceblue;
+  height: 2rem;
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  color:darkgoldenrod;
+  font-size: 20px;
+}
+
+
+button {
+  border-radius: 1rem;
+}
